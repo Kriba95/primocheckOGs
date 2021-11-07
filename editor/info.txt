@@ -1,0 +1,17 @@
+Minimaalinen WYSIWYG Editori, Lisätääkseen tiettyyn sivuun tein autoLoadEditorin.
+
+
+  Lataa tarvittavat scirptit, <head> kohtaan
+  <?php include('../editor/autoLEditor.php'); ?> 
+
+
+Kutsutaan WYSIWYG editori, kaksi tapaa.
+
+    <div id="summernote"></div>
+    tai
+    <div class="summernote"></div>
+
+
+
+Tarvittava JQuery scripti
+  <script src="../editor/callEditor.js"></script>
